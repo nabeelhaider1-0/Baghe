@@ -31,7 +31,7 @@ const CaseStudy = () => {
               data-aos-duration="2000"
               data-aos-once="true"
             >
-              Bagh-E is small aims to revolutionize agricultural practices and
+              Bagh-e is small aims to revolutionize agricultural practices and
               empower farmers in agri-based developing countries.
             </p>
           </div>

@@ -15,7 +15,7 @@ const Empowering = () => {
             Empowering Farmers
           </h3>
           <p data-aos="slide-up" data-aos-duration="1500" data-aos-once="true">
-            At Bagh-E, we are revolutionizing the way farmers in agri-based
+            At Bagh-e, we are revolutionizing the way farmers in agri-based
             developing countries access financing and improve their per-acre
             yields. Our tech-based, Shariah-compliant platform offers a
             groundbreaking solution to address the challenges faced by farmers,
