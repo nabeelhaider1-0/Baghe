@@ -1,0 +1,70 @@
+.wrapperclients {
+    position: relative;
+    width: 100vw;
+    /* Set width to viewport width */
+    height: calc(100vh - 200px);
+    /* Set height to viewport height minus 60px */
+}
+
+.clientsbg {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/clientbgimage1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.wrapperclients1 {
+    position: relative;
+    width: 100vw;
+    /* Set width to viewport width */
+    height: calc(100vh - 200px);
+    /* Set height to viewport height minus 60px */
+}
+
+.clientsbg1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/clientbgimage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+@media (max-width: 600px) {
+    .wrapperclients {
+        position: relative;
+        width: 100vw;
+        /* Set width to viewport width */
+        height: calc(100vh - 85vh);
+        /* Set height to viewport height minus 60px */
+    }
+
+    .clientsbg {
+        background-size: contain;
+        /* Example adjustment */
+        background-position: top;
+        /* Example adjustment */
+    }
+
+    .wrapperclients1 {
+        position: relative;
+        width: 100vw;
+        /* Set width to viewport width */
+        height: calc(100vh - 85vh);
+        /* Set height to viewport height minus 60px */
+    }
+
+    .clientsbg1 {
+        background-size: contain;
+        /* Example adjustment */
+        background-position: top;
+        /* Example adjustment */
+    }
+}

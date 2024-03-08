@@ -1,0 +1,73 @@
+.uplaodedContentbg {
+    padding: 4vw;
+}
+
+.uplaodedContentbg h5 {
+    font-size: 2vw;
+    color: #418E05;
+    text-align: center;
+    font-family: Poppins;
+
+
+
+}
+
+.uplaodedContentbg h3 {
+    font-size: 2.8vw;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.farmerspic {
+    margin-top: 3vw;
+}
+
+.farmerspics img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.farmerspics img:hover {
+    transform: scale(1.05);
+}
+
+.farmerspics {
+    margin-bottom: 2vw;
+}
+
+
+@media (max-width: 600px) {
+    .uplaodedContentbg {
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    .uplaodedContentbg h5 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #418E05;
+        text-align: left;
+    }
+
+    .uplaodedContentbg h3 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #000000;
+        text-align: left;
+    }
+
+    .farmerspic {
+        margin-top: 45px;
+    }
+
+    .farmerspics {
+        margin-bottom: 20px;
+    }
+
+    .farmerspics img {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,33 @@
+.policy-content{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.policy-content h2{
+    font-size: 2vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    line-height: 4vw;
+}
+
+
+.policy-content p,ul{
+    font-size: 1.5vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+   
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .policy-content h2 {
+        font-size: 4vw; /* Set font size to a specific value for smaller screens */
+    }
+
+    .policy-content p,ul {
+        font-size: 3vw; /* Set font size to a specific value for smaller screens */
+    }
+}

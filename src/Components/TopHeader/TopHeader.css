@@ -1,0 +1,33 @@
+.topheader{
+    background: linear-gradient(to right, rgba(65, 142, 5, 1), rgba(65, 142, 5, 0.24));
+   padding-top:1vw;
+   padding-bottom: 1vw;
+}
+
+.topheader h4{
+    font-size: 2vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 3vw;
+}
+
+.topheader p{
+    font-size: 1vw;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 3vw;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .topheader h4 {
+        font-size: 4vw; /* Set font size to a specific value for smaller screens */
+    }
+
+    .topheader p {
+        font-size: 3vw; /* Set font size to a specific value for smaller screens */
+    }
+}

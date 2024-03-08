@@ -1,0 +1,78 @@
+.footerbg {
+    background-color: #000000;
+    padding: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.footerLeft img {
+    width: 13vw;
+}
+
+.footerRight {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.footmore {
+    width: 12vw !important;
+    margin-left: -2vw !important;
+}
+
+.footmore1 {
+    width: 12vw !important;
+    margin-left: 0.41vw !important;
+}
+
+.foothov :hover {
+    color: #418E05;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.greeni {
+    color: #418E05;
+    font-weight: 500;
+
+}
+
+.footerRight a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+@media (max-width: 600px) {
+    .footerbg {
+        background-color: #000000;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .footerLeft img {
+        width: 43vw;
+        margin-bottom: 23px;
+    }
+
+    .footerRight {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 19px;
+        color: #ffffff;
+        font-weight: 400;
+        margin-bottom: 23px;
+        padding-left: 23px;
+    }
+
+    .greeni {
+        color: #418E05;
+        font-weight: 700;
+        font-size: 25px;
+        padding-left: 18px;
+    }
+}

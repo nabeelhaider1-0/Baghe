@@ -1,0 +1,166 @@
+.wrapperfaq {
+    position: relative;
+    width: 100vw;
+    /* Set width to viewport width */
+    height: calc(33vw - 0.8vw);
+    /* Set height to viewport height minus 60px */
+}
+
+.faqbg {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/faqbgimage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.faqbg {
+    background-size: contain;
+    /* Example adjustment */
+    background-position: top;
+    /* Example adjustment */
+}
+
+
+.faq-accordion-wrapper {
+    margin-top: -1vw;
+    padding: 4vw;
+    background: linear-gradient(to bottom, rgba(188, 255, 136, 1), rgba(255, 255, 255, 1));
+}
+
+.faqQue h2 {
+    font-family: Roboto;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 3vw;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.faqQue p {
+    font-family: Roboto;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 3vw;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.accordion-item>.accordion-header .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+    font-family: Roboto;
+    font-size: 1vw;
+    font-weight: 700;
+    line-height: 2vw;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* Change the background image and color of the arrow drop-down */
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url('/src/assets/expand_more.png') !important;
+    /* Specify the URL of your arrow icon */
+    background-repeat: no-repeat;
+    background-size: 1.7rem !important;
+    transition: var(--bs-accordion-btn-icon-transition);
+    /* Change the color of the arrow drop-down */
+    filter: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-body {
+    padding: 1vw 3vw !important;
+    font-family: Roboto;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 2vw;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.accordion-body ul {
+    padding-left: 1vw !important;
+
+}
+
+.accordion-body li {
+    padding: 1vw 0vw !important;
+    margin: 0 !important;
+    font-family: Roboto;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 2vw;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.accordion-body p {
+    font-family: Roboto;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 2vw;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.custom-accordion .accordion-item {
+    border: none;
+}
+
+.accordion-button::after {
+    box-shadow: none;
+}
+
+.custom-accordion .accordion-header {
+
+    padding: 1vw;
+    margin-bottom: 1vw;
+    /* Add vertical space between accordion items */
+    border: 1px solid rgba(65, 142, 5, 1);
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+    box-shadow: none;
+    /* Remove box shadow when accordion is expanded */
+    background-color: transparent;
+}
+
+
+.custom-accordion .collapsed {
+    border-radius: 0;
+    /* Remove rounded borders from accordion headers */
+    box-shadow: none;
+    /* Remove box shadow when accordion is expanded */
+    background-color: transparent;
+}
+
+.custom-accordion .accordion-button {
+    border-radius: 0;
+    /* Remove rounded borders from accordion headers */
+}
+
+@media (max-width: 600px) {
+    .wrapperfaq {
+        position: relative;
+        width: 100vw;
+        /* Set width to viewport width */
+        height: calc(100vh - 85vh);
+        /* Set height to viewport height minus 60px */
+    }
+}

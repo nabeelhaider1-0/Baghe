@@ -1,0 +1,160 @@
+.empoweringbg {
+    padding-top: 5vw !important;
+    padding-bottom: 8vw !important;
+    background: #F9F9F9;
+}
+
+.empowertitle h3 {
+    color: #000000;
+    font-size: 2.4vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.empowertitle p {
+    color: #0000007c;
+    font-size: 1.6vw;
+    line-height: 2.3vw;
+    letter-spacing: 0em;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 0vw 14vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.minicardsline {
+    padding: 3vw 8vw;
+}
+
+.minicards {
+    border: none !important;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    height: 13vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+    cursor: pointer;
+}
+
+.minicards:hover {
+    animation: wiggle 1s ease infinite !important;
+}
+
+.minicardsbody img {
+    height: 6vw;
+    margin-left: 2vw;
+    object-fit: contain;
+}
+
+.minicardsbody p {
+    color: #418E05;
+    font-size: 0.8vw;
+    letter-spacing: 0em;
+    font-weight: 600;
+    text-align: center;
+    padding: 0vw 1.76vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+
+
+
+/* Define the keyframes for the wiggle animation */
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(5deg);
+    }
+
+    40% {
+        transform: rotate(-5deg);
+    }
+
+    60% {
+        transform: rotate(3deg);
+    }
+
+    80% {
+        transform: rotate(-3deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .empoweringbg {
+        padding-top: 7vw !important;
+        background: #F9F9F9;
+    }
+
+    .empowertitle h3 {
+        color: #000000;
+        font-size: 6vw;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+
+    .empowertitle p {
+        color: #000000;
+        font-size: 4vw;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 5vw;
+        padding: 0vw 6vw;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+
+    .minicardsline {
+        padding: 7vw 13vw;
+    }
+
+    .minicards {
+        border: none !important;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+        height: 35vw !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6vw;
+        cursor: pointer;
+    }
+
+
+    .minicardsbody img {
+        height: 18vw;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .minicardsbody p {
+        color: #418E05;
+        font-size: 3vw;
+        letter-spacing: 0em;
+        font-weight: 600;
+        text-align: center;
+        padding: 0vw 1.76vw;
+        margin-top: 3vw;
+    }
+
+
+}

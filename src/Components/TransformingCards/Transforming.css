@@ -1,0 +1,150 @@
+.transformingbg {
+    background-image: url("../../assets/transformbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3vw !important;
+}
+
+.transformingLeft {
+    margin-top: 3vw !important;
+    padding: 2vw !important;
+}
+
+.transformingLeft h4 {
+    color: #39E70D;
+    font-size: 1.6vw;
+    font-family: poppins;
+}
+
+.transformingLeft h3 {
+    color: #FFFFFF;
+    font-size: 2vw;
+    margin-top: 2vw;
+    line-height: 2.6vw;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.transformingLeft p {
+    margin-top: 1vw;
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 300;
+
+
+}
+
+
+
+.transformingcards {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(1vw) !important;
+    border: 1px solid rgba(128, 128, 128, 0.5) !important;
+    height: 25vw !important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.transformingcards:hover {
+    transform: scale(1.04);
+}
+
+.transformingbody img {
+    height: 4vw;
+    margin-top: 0.1vw;
+    margin-left: 5vw;
+}
+
+.transformingtitle {
+    color: #39E70D !important;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+
+}
+
+.transformrightpadding {
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+.transformingtext {
+    color: #FFFFFF !important;
+    font-size: 0.82vw !important;
+    margin-top: 1vw;
+    padding-bottom: 1vw;
+    line-height: 1.3vw;
+    text-align: center;
+
+    font-family: Poppins;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+
+}
+
+@media (max-width: 600px) {
+    .transformingbg {
+        padding: 4vw !important;
+    }
+
+    .transformingLeft {
+        margin-top: 1vw !important;
+        padding: 4vw !important;
+    }
+
+    .transformingLeft h4 {
+        color: #39E70D;
+        font-size: 6vw;
+    }
+
+    .transformingLeft h3 {
+        color: #FFFFFF;
+        font-size: 7vw;
+        margin-top: 4vw;
+    }
+
+    .transformingLeft p {
+        margin-top: 4vw;
+        color: #FFFFFF;
+        font-size: 3vw;
+        line-height: 6vw;
+        text-align: justify;
+    }
+
+
+
+    .transformingcards {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) !important;
+        backdrop-filter: blur(14px) !important;
+        border: 1px solid rgba(128, 128, 128, 0.5) !important;
+        height: auto !important;
+    }
+
+    .transformingbody img {
+        height: 14vw;
+        margin-top: 0.1vw;
+        margin-left: 30vw;
+    }
+
+    .transformingtitle {
+        color: #39E70D !important;
+        font-size: 4vw;
+        margin-top: 3vw;
+        text-align: center;
+    }
+
+    .transformingtext {
+        color: #FFFFFF !important;
+        font-size: 3vw !important;
+        margin-top: 1vw;
+        padding-bottom: 1vw;
+        line-height: 4vw;
+        text-align: center;
+    }
+}

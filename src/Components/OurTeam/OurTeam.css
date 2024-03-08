@@ -1,0 +1,76 @@
+.wrapperteam {
+    position: relative;
+    width: 100vw;
+    /* Set width to viewport width */
+    height: calc(100vh - 200px);
+    /* Set height to viewport height minus 60px */
+}
+
+.teambg {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/teambgimage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.teamsbg {
+    padding: 4vw;
+    background-color: #F9F9F9;
+}
+
+.teamsbg h3 {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 3vw;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.teamcardsstart {
+    padding: 100px;
+}
+
+
+
+@media (max-width: 600px) {
+    .wrapperteam {
+        position: relative;
+        width: 100vw;
+        /* Set width to viewport width */
+        height: calc(100vh - 85vh);
+        /* Set height to viewport height minus 60px */
+    }
+
+    .teambg {
+        background-size: contain;
+        /* Example adjustment */
+        background-position: top;
+        /* Example adjustment */
+    }
+
+    .teamsbg {
+        padding: 30px;
+        background-color: #F9F9F9;
+    }
+
+    .teamsbg h3 {
+        color: #000000;
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .teamcardsstart {
+        padding: 30px;
+    }
+
+}

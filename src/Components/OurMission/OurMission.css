@@ -1,0 +1,169 @@
+.missionbg {
+    padding: 4vw;
+    padding-top: 5vw;
+    background: #F9F9F9;
+}
+
+.showcasebg {
+    padding: 4vw;
+    padding-top: 4vw;
+    background: #F9F9F9;
+}
+
+
+.missionLeft img {
+    width: 40vw;
+    object-fit: contain;
+    border-radius: 1vw;
+
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40vw;
+    padding: 10px;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+.image-container:hover .text-overlay {
+    transform: translateY(0);
+}
+
+.missionpicinner {
+    padding-left: 2vw !important;
+}
+
+.missionpicinner h5 {
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 4vw;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Poppins;
+}
+
+.missionpicinner p {
+    font-size: 1vw;
+    font-weight: 500;
+    line-height: 1vw;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Poppins;
+}
+
+.missionRight h3 {
+    color: #000000;
+    font-size: 3vw;
+    font-family: Helvetica;
+    font-weight: 700;
+    text-align: left;
+}
+
+.missionRight p {
+    color: #000000;
+    font-size: 1.4vw;
+    font-weight: 400;
+    padding-right: 2vw;
+    font-family: Poppins;
+    text-align: left;
+
+}
+
+.showcaserRight h3 {
+    color: #000000;
+    font-size: 3vw;
+    font-weight: 500;
+    margin-top: 4vw;
+    font-weight: 700;
+    text-align: left;
+}
+
+.showcaserRight p {
+    color: #000000;
+    font-size: 1.4vw;
+    font-weight: 400;
+    padding-right: 2vw;
+    font-family: Poppins;
+    text-align: left;
+}
+
+.accessibilty {
+    padding: 0.61vw;
+    background-color: #d1e9bf;
+    color: #000000;
+    font-size: 1.3vw;
+    margin-right: 1.52vw;
+    border-radius: 0.71vw;
+}
+
+.triospan {
+    margin-top: 1.1vw;
+}
+
+.showcaser {
+    width: 30vw !important;
+    margin-left: 7vw;
+}
+
+
+@media (max-width: 600px) {
+    .missionbg {
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .showcasebg {
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .missionLeft img {
+        width: 90vw;
+    }
+
+    .missionRight h3 {
+        color: #000000;
+        font-size: 32px;
+        font-weight: 500;
+        margin-top: 23px;
+    }
+
+    .missionRight p {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 400;
+        padding-right: 25px;
+        text-align: justify;
+    }
+
+    .accessibilty {
+        width: auto;
+        /* Revert width to auto */
+        display: inline-block;
+        padding: 8px;
+        background-color: #50B800;
+        color: #ffffff;
+        font-size: 12px;
+        margin-right: 8px;
+        border-radius: 8px;
+        word-break: break-all;
+        margin-top: 12px;
+    }
+
+    .triospan {
+        margin-top: 2px;
+
+    }
+}

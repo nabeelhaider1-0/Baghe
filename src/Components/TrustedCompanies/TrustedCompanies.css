@@ -1,0 +1,122 @@
+.trsutedbg {
+    background-color: #051306;
+    padding: 2vw;
+}
+
+.trsutedLeft {
+    padding-left: 2vw !important;
+}
+
+.trsutedLeft h3 {
+    color: #ffffff;
+    font-family: poppins;
+    font-size: 2.8vw;
+    line-height: 4vw;
+    padding-right: 0vw;
+    padding-top: 1.2vw;
+    text-align: left;
+}
+
+.trustincard {
+    width: 25vw;
+    padding-top: 0.81vw;
+    padding-bottom: 0.11vw;
+    padding-left: 1vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.81vw;
+    margin-top: 1.2vw;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.trustincard img {
+    width: 3vw;
+
+}
+
+.trustincard:hover {
+    transform: scale(1.1);
+}
+
+.trustincard p {
+    margin-left: 0.9vw;
+    margin-top: 0.71vw;
+    color: #000000;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.trsutedRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw !important;
+}
+
+.trsutedRight img {
+    width: 15vw;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.trsutedRight img:hover {
+
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 600px) {
+    .trsutedbg {
+        background-color: #051306;
+        padding: 7vw;
+    }
+
+    .trsutedLeft {
+        text-align: center;
+    }
+
+    .trsutedLeft h3 {
+        color: #ffffff;
+        font-size: 5vw;
+        line-height: 4vw;
+        padding-right: 3vw;
+        padding-top: 1.2vw;
+    }
+
+    .trustincard {
+        width: 54vw;
+        padding-top: 1vw;
+        padding-bottom: 0.11vw;
+        padding-left: 2vw;
+        background-color: white;
+        border-radius: 0.81vw;
+        margin-top: 5vw;
+        margin-left: 15vw;
+    }
+
+    .trustincard img {
+        width: 9vw;
+    }
+
+    .trustincard p {
+        margin-left: 2vw;
+        margin-top: 2vw;
+        color: #000000;
+        font-size: 3vw;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .mobiletop {
+        margin-top: 8vw !important;
+    }
+
+    .trsutedRight img {
+        width: 55vw;
+        margin-right: 13vw;
+    }
+
+}

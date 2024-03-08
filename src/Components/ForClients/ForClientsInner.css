@@ -1,0 +1,106 @@
+.clientcardsline {
+    padding: 3vw 8vw;
+}
+
+.clientcards {
+    border: none !important;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    height: 23vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding-left: 1vw;
+}
+
+.clientcards:hover {
+    transform: scale(1.05);
+}
+
+.clientcardsbody img {
+    height: 4vw;
+    margin-left: 1vw;
+    object-fit: contain;
+}
+
+.clientcardsbody h1 {
+    font-family: Poppins;
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    font-weight: 600;
+    line-height: 1vw;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.clientcardsbody p {
+    font-family: Poppins;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.2vw;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 1.6vw;
+    padding-right: 0.7vw;
+}
+
+/* i want to craete a button with white background a text color green */
+.clientcardsbody button {
+    background-color: #ffffff;
+    border: 1px solid #418E05;
+    border-radius: 0.3vw;
+    color: #000000;
+    padding: 0.51vw 2vw;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 0.1vw;
+    font-size: 1vw;
+    transition: all 0.3s ease-in-out;
+}
+
+.clientcardsbody button:hover {
+    background-color: #418E05;
+    color: #ffffff;
+}
+
+
+@media (max-width: 600px) {
+
+    .clientcardsline {
+        padding: 7vw 13vw;
+    }
+
+    .clientcards {
+        border: none !important;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+        height: 35vw !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6vw;
+        cursor: pointer;
+    }
+
+
+    .clientcardsbody img {
+        height: 18vw;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .clientcardsbody p {
+        color: #418E05;
+        font-size: 3vw;
+        letter-spacing: 0em;
+        font-weight: 600;
+        text-align: center;
+        padding: 0vw 1.76vw;
+        margin-top: 3vw;
+    }
+
+
+}

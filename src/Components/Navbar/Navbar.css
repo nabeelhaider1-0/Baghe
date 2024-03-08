@@ -1,0 +1,208 @@
+nav {
+    height: 60px;
+    --bs-bg-opacity: 0 !important;
+    width: 100%;
+    padding: 0 4vw !important;
+    background-color: #418E05;
+}
+
+
+.nav-link {
+    color: white !important;
+    font-size: 1vw !important;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.nav-link {
+    text-decoration: none;
+    /* Remove default underline */
+    position: relative;
+    /* Add a relative position to the links */
+}
+
+.navbar-brand img {
+    height: 2.3vw;
+}
+
+.dropdown-menu {
+    --bs-dropdown-min-width: 10rem;
+    --bs-dropdown-font-size: 22px;
+    --bs-dropdown-color: #fff;
+    --bs-dropdown-bg: #FFF !important;
+    --bs-dropdown-border-radius: 0;
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: #426428 !important;
+    text-align: center;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 85%;
+}
+
+.dropdown-item {
+    color: #fff;
+
+}
+
+
+
+
+.nav-link,
+.dropdown-item>a {
+    position: relative;
+}
+
+.nav-link::before,
+.dropdown-item>a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #9ede5a;
+    transition: width 0.5s ease;
+}
+
+.nav-link:hover::before,
+.dropdown-item:hover>a::before {
+    width: 100%;
+}
+
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+
+
+.navbar-toggler {
+    color: white !important;
+    padding: 0.1rem 0.3rem !important;
+    border: 1px Solid #fff !important;
+    background-color: white !important;
+    width: 3.1vw !important;
+    /* Set the desired width */
+    height: 2.5vw !important;
+    /* Set the desired height */
+    font-size: 1vw !important;
+}
+
+.navbar-toggler-icon {
+    font-size: 1vw;
+    /* Set the font size for the icon */
+}
+
+.navbar-nav {
+    gap: 2vw;
+}
+
+.socialnav {
+    gap: 2vw;
+    padding-left: 2vw;
+}
+
+.socialnav i {
+    color: #ffffff;
+    padding: 0.4vw;
+    background-color: #6ea941;
+    border-radius: 0.4vw;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.4vw;
+}
+
+.socialnav i:hover {
+    background-color: #204107;
+
+}
+
+@media (max-width: 600px) {
+    .navbar-brand img {
+        height: 9vw !important;
+    }
+
+    nav {
+        height: 60px;
+        --bs-bg-opacity: 1 !important;
+        width: 100%;
+        padding: 3vw 4vw !important;
+
+    }
+
+    .nav-link {
+        font-size: 18px !important;
+        border-bottom: 1px solid #011D08;
+        color: black !important;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        background-color: transparent;
+        backdrop-filter: blur(30px);
+        padding: 35px;
+    }
+
+    .navbar-collapse {
+        z-index: 1;
+        padding-top: 5px;
+    }
+
+    .nav-link::before,
+    .dropdown-item>a::before {
+
+        background-color: transparent;
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-min-width: 10rem;
+        --bs-dropdown-font-size: 18px;
+        --bs-dropdown-color: #fff;
+        --bs-dropdown-bg: transparent;
+        backdrop-filter: blur(90px);
+        border: none;
+        --bs-dropdown-border-radius: 0;
+        --bs-dropdown-border: 2px solid orange !important;
+        --bs-dropdown-link-active-color: #fff;
+        --bs-dropdown-link-active-bg: #426428;
+        text-align: left;
+    }
+
+    .navbar-toggler {
+        color: white !important;
+        padding: 0.1rem 0.3rem !important;
+        border: 1px Solid #fff !important;
+        background-color: white !important;
+        width: 9vw !important;
+        /* Set the desired width */
+        height: 8vw !important;
+        /* Set the desired height */
+        font-size: 1vw !important;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 2.2vw;
+        /* Set the font size for the icon */
+    }
+
+    .socialnav {
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        gap: 1vw;
+    }
+
+    .socialnav {
+        gap: 6vw;
+        padding-left: 2vw;
+    }
+
+    .socialnav i {
+        color: #ffffff;
+        padding: 0.9vw;
+        background-color: #6ea941;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+    }
+}

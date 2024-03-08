@@ -1,0 +1,474 @@
+.wrapperhome {
+    position: relative;
+    width: 100vw;
+    /* Set width to viewport width */
+    height: calc(100vh - 60px);
+    /* Set height to viewport height minus 60px */
+}
+
+.homebg {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/homebgimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.homebgtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center vertically */
+    align-items: center;
+    height: 45vw;
+    /* Center horizontally */
+}
+
+.homebgtext h1 {
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 6vw;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.homebgtext p {
+    margin-top: 1vw;
+    font-size: 1.6vw;
+    font-weight: 400;
+    line-height: 1.8vw;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 28vw;
+    padding-right: 28vw;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.introductionbg {
+    padding: 5vw;
+    padding-top: 7vw;
+}
+
+.introductionLeft img {
+    width: 40vw;
+    object-fit: contain;
+}
+
+.introductionRight {
+    padding-top: 6vw;
+}
+
+.introductionRight h5 {
+    color: #418E05;
+    font-size: 2vw;
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: left;
+
+
+}
+
+.introductionRight h3 {
+    color: #000000;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.introductionRight p {
+    color: #000000;
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-right: 1vw;
+    text-align: left;
+    margin-top: 2vw;
+    font-family: Poppins;
+    text-align: left;
+
+}
+
+
+.featurebg {
+    padding-top: 1vw;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature h5 {
+    color: #418E05;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+.feature h3 {
+    color: #000000;
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin-top: 2vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    letter-spacing: 0.2vw;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.feature p {
+    color: #000000;
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-left: 30vw;
+    padding-Right: 30vw;
+    text-align: center;
+    margin-top: 2vw;
+    letter-spacing: 0.1vw;
+    font-family: Poppins;
+    text-align: center;
+
+}
+
+.featurecontainer {
+    padding: 5vw;
+}
+
+.featurewidth {
+    padding-left: 2.7vw !important;
+    padding-right: 2.7vw !important;
+}
+
+.featurecards {
+    border-radius: 1vw !important;
+    background: linear-gradient(to bottom, #418E05, #FFFFFF, #418E05);
+    height: 42vw !important;
+    overflow: hidden !important;
+    /* Hides overflow */
+    position: relative;
+    /* Add relative positioning */
+}
+
+.featurebody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featurebody img {
+    padding-top: 1vw;
+    height: 38vw;
+}
+
+.featuretitle {
+    position: absolute;
+    bottom: -10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 1.7vw;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to top, #418E05 60%, #408e053c);
+    transition: bottom 0.3s ease;
+    padding-top: 6vw;
+    font-weight: 700;
+
+}
+
+.featurecards:hover .featuretitle {
+    bottom: 0;
+    cursor: pointer;
+}
+
+
+.testomonialsbg {
+    padding: 4vw;
+    margin-top: 4vw;
+    background-color: #101811;
+}
+
+.testomonials {
+    text-align: center;
+}
+
+.testomonials h5 {
+    text-decoration: underline;
+    color: #3AC218;
+    font-size: 1.9vw;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+
+.testomonials h3 {
+    margin-top: 2vw;
+    color: #ffffff;
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    font-family: Poppins;
+}
+
+
+.testomonialcard {
+    background-color: rgba(128, 128, 128, 0.484) !important;
+    border-radius: 1vw;
+    padding: 0.2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+.testomonialcardimg img {
+    border-radius: 1.6vw !important;
+    height: 5vw;
+}
+
+.testomonialcardname h5 {
+    font-size: 1.8vw;
+    margin-top: 2vw;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 1vw;
+    font-family: poppins;
+}
+
+.testomonialcardpostion h6 {
+    font-size: 1.8vw;
+    font-weight: 400;
+    color: #3AC218;
+    font-family: poppins;
+}
+
+.testomonialcardquote p {
+    font-size: 2.1vw;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 1vw;
+    font-style: italic;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+@media (max-width: 600px) {
+    .wrapperhome {
+        position: relative;
+        width: 100vw;
+        /* Set width to viewport width */
+        height: calc(100vh - 79vh);
+        /* Set height to viewport height minus 60px */
+    }
+
+    .homebg {
+        background-size: contain;
+        /* Example adjustment */
+        background-position: top;
+        /* Example adjustment */
+    }
+
+    .introductionbg {
+        padding: 30px;
+        padding-top: 60px;
+    }
+
+    .introductionLeft img {
+        width: 90vw;
+        object-fit: contain;
+    }
+
+    .introductionRight {
+        padding-top: 44px;
+    }
+
+    .introductionRight h5 {
+        color: #418E05;
+        font-size: 24px;
+        font-weight: 600;
+
+    }
+
+    .introductionRight h3 {
+        color: #000000;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .introductionRight p {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 400;
+        padding-right: 12px;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .featurebg {
+        padding: 30px;
+    }
+
+    .feature {
+        text-align: left;
+    }
+
+    .feature h5 {
+        color: #418E05;
+        font-size: 24px;
+        font-weight: 600;
+
+    }
+
+    .feature h3 {
+        color: #000000;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 15px;
+        padding-left: 0vw;
+        padding-Right: 0vw;
+        letter-spacing: 0px;
+    }
+
+    .feature p {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 0vw;
+        padding-Right: 0vw;
+        text-align: justify;
+        margin-top: 15px;
+        letter-spacing: 0px;
+    }
+
+    .featurecontainer {
+        padding: 20px;
+    }
+
+    .featurewidth {
+        padding-left: 25px !important;
+        padding-Right: 25px !important;
+    }
+
+    .featurecards {
+        border-radius: 15px !important;
+        background: linear-gradient(to bottom, #418E05, #FFFFFF, #418E05);
+        height: auto !important;
+        overflow: hidden !important;
+        /* Hides overflow */
+        position: relative;
+        /* Add relative positioning */
+        margin-bottom: 23px;
+    }
+
+    .featurebody {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featurebody img {
+        padding-top: 10px;
+        height: 55vh;
+    }
+
+    .featuretitle {
+        position: absolute;
+        bottom: -300px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 16px;
+        left: 0;
+        /* Adjust this value to position the title properly */
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(to top, #418E05 60%, #408e053c);
+        transition: bottom 0.3s ease;
+        padding-top: 67px;
+        padding-bottom: 45px;
+    }
+
+    .featurecards:hover .featuretitle {
+        bottom: 0;
+        cursor: pointer;
+    }
+
+    .testomonialsbg {
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 12px;
+    }
+
+    .testomonials {
+        text-align: left;
+    }
+
+    .testomonials h5 {
+        text-decoration: underline;
+        color: #3AC218;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .testomonials h3 {
+        margin-top: 15px;
+        color: #ffffff;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .testomonialcard {
+        background-color: rgba(128, 128, 128, 0.484) !important;
+        border-radius: 15px;
+        padding: 12px;
+        padding-top: 20px;
+        margin-top: 23px;
+        text-align: center;
+    }
+
+    .testomonialcardname h5 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #ffffff;
+        text-decoration: none;
+        margin-top: 15px;
+    }
+
+    .testomonialcardpostion h6 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #3AC218;
+    }
+
+    .testomonialcardquote p {
+        font-size: 24px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+        margin-top: 15px;
+        font-style: italic;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+
+}
