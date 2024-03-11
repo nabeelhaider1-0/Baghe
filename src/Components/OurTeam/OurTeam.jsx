@@ -35,8 +35,9 @@ const OurTeam = () => {
               data-aos-duration="2000"
               data-aos-once="true"
             >
-              Bagh-E is small aims to revolutionize agricultural practices and
-              empower farmers in agri-based developing countries.
+              Meet the dedicated team behind our mission, a group of passionate
+              professionals committed to empowering farmers and transforming
+              agriculture.
             </p>
           </div>
         </div>

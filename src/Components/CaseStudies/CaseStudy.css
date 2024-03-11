@@ -42,7 +42,7 @@
     margin-top: 1vw;
     font-size: 1.4vw;
     font-weight: 400;
-    line-height: 1.6vw;
+    line-height: 1.8vw;
     letter-spacing: 0em;
     text-align: center;
     color: #ffffff;
@@ -86,5 +86,39 @@
         /* Example adjustment */
         background-position: top;
         /* Example adjustment */
+    }
+
+    .casetextbg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* Center vertically */
+        align-items: center;
+        height: 35vw;
+        /* Center horizontally */
+    }
+
+    .casetextbg h1 {
+        text-transform: uppercase;
+        font-size: 6vw;
+        font-weight: 700;
+        line-height: 6vw;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px #000000;
+    }
+
+    .casetextbg p {
+        margin-top: 1vw;
+        font-size: 2.2vw;
+        font-weight: 400;
+        line-height: 2.5vw;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        text-shadow: 2px 2px 8px #000000;
     }
 }

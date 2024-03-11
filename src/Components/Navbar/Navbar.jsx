@@ -80,7 +80,7 @@ const Navbar = () => {
                     Clients
                   </Link>
                 </li>
-                
+
                 <li></li>
               </ul>
             </li>
@@ -96,16 +96,10 @@ const Navbar = () => {
               </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" to="/allservices">
+                  <Link className="dropdown-item" to="/servicesDetails">
                     All Services
                   </Link>
                 </li>
-                <li>
-                  <Link className="dropdown-item" to="/servicesDetails">
-                    Services Details
-                  </Link>
-                </li>
-
                 <li>
                   <Link className="dropdown-item" to="/casestudy">
                     Case Studies

@@ -31,8 +31,8 @@ const CaseStudy = () => {
               data-aos-duration="2000"
               data-aos-once="true"
             >
-              Bagh-e is small aims to revolutionize agricultural practices and
-              empower farmers in agri-based developing countries.
+              Real success stories from the field: <br /> Explore how our
+              services have positively impacted farmers and their communities.
             </p>
           </div>
         </div>
@@ -98,7 +98,17 @@ const CaseStudy = () => {
         </div>
       </div>
       <div className="wrapperpicbg">
-        <div className="casepiclower"></div>
+        <div className="casepiclower">
+          <div className="homebgtext">
+            <h1
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              data-aos-once="true"
+            >
+              Coming Soon!
+            </h1>
+          </div>
+        </div>
       </div>
       <LowerHeader1 />
       <Footer />

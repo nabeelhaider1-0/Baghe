@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Empowering from "../EmpoweringFarmers/Empowering";
 import UnlockingAgri from "../Unlocking Agriculture/UnlockingAgri";
 import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
-import Transforming from "../TransformingCards/Transforming";
+// import Transforming from "../TransformingCards/Transforming";
 import Leadership from "../LeaderShip/Leadership";
 import intropic from "../../assets/bagheintro.png";
 import dashboard from "../../assets/Dashboard.png";
@@ -54,7 +54,7 @@ const Home = () => {
       <Empowering />
       <UnlockingAgri />
       <TrustedCompanies />
-      <Transforming />
+      {/* <Transforming /> */}
       <Leadership />
       <div className="introductionbg">
         <div className="row">

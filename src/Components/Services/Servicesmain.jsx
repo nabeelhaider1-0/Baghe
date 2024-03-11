@@ -7,6 +7,8 @@ import ContactUs from "../Contactus/ContactUs";
 import LowerHeader from "../LowerHeader/LowerHeader";
 import UnlockingAgri from "../Unlocking Agriculture/UnlockingAgri";
 import LowerHeader2 from "../LowerHeader/LowerHeader2";
+import Transforming from "../TransformingCards/Transforming";
+import Empowering from "../EmpoweringFarmers/Empowering";
 const Servicesmain = () => {
   useLayoutEffect(() => {
     const aboutBgElement = document.getElementById("servicetop");
@@ -34,15 +36,18 @@ const Servicesmain = () => {
               data-aos-duration="2000"
               data-aos-once="true"
             >
-              Bagh-E is small aims to revolutionize agricultural practices and
-              empower farmers in agri-based developing countries.
+              Explore our comprehensive services designed for the modern farmer:
+              from crop-funding to digital financing, every tool you need for
+              success is here.
             </p>
           </div>
         </div>
       </div>
       <LowerHeader2 />
+      <Transforming />
       <UnlockingAgri />
       <TrustedCompanies />
+      <Empowering />
       <ContactUs />
       <LowerHeader />
       <Footer />

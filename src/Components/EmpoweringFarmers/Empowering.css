@@ -107,24 +107,34 @@
 
     .empowertitle h3 {
         color: #000000;
-        font-size: 6vw;
+        font-size: 5.1vw;
         margin-bottom: 2vw;
         margin-top: 2vw;
+        text-align: left;
+        padding: 0vw 7vw;
     }
 
     .empowertitle p {
         color: #000000;
         font-size: 4vw;
         font-weight: 400;
-        text-align: justify;
+        text-align: left;
         line-height: 5vw;
-        padding: 0vw 6vw;
+        padding: 0vw 7vw;
         margin-bottom: 2vw;
         margin-top: 2vw;
     }
 
     .minicardsline {
-        padding: 7vw 13vw;
+        padding: 8vw 3vw !important;
+    }
+
+    .drapper .col-md-2 {
+        width: 50%;
+        /* Set the width to 50% for mobile view */
+        flex: 0 0 50%;
+        /* Set flex properties to maintain layout */
+        max-width: 50%;/
     }
 
     .minicards {

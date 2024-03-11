@@ -163,4 +163,95 @@
         height: calc(100vh - 85vh);
         /* Set height to viewport height minus 60px */
     }
+
+    .faqbg {
+        background-size: contain;
+        /* Example adjustment */
+        background-position: top;
+        /* Example adjustment */
+    }
+
+    .faq-accordion-wrapper {
+        margin-top: -0vw !important;
+        padding: 4vw;
+        background: linear-gradient(to bottom, rgba(188, 255, 136, 1), rgba(255, 255, 255, 1));
+    }
+
+    .faqQue h2 {
+        font-family: Roboto;
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 3vw;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .faqQue p {
+        font-family: Roboto;
+        font-size: 2.4vw;
+        font-weight: 400;
+        line-height: 3vw;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .accordion-item>.accordion-header .accordion-button {
+        border-top-left-radius: var(--bs-accordion-inner-border-radius);
+        border-top-right-radius: var(--bs-accordion-inner-border-radius);
+        font-family: Roboto;
+        font-size: 2.5vw;
+        font-weight: 700;
+        line-height: 3vw;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    /* Change the background image and color of the arrow drop-down */
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: var(--bs-accordion-btn-icon-width);
+        height: var(--bs-accordion-btn-icon-width);
+        margin-left: auto;
+        content: "";
+        background-image: url('/src/assets/expand_more.png') !important;
+        /* Specify the URL of your arrow icon */
+        background-repeat: no-repeat;
+        background-size: 1.3rem !important;
+        transition: var(--bs-accordion-btn-icon-transition);
+        /* Change the color of the arrow drop-down */
+        filter: none;
+    }
+
+    .accordion-body {
+        padding: 1vw 3vw !important;
+        font-family: Roboto;
+        font-size: 2.5vw;
+        font-weight: 400;
+        line-height: 3vw;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .accordion-body li {
+        padding: 1vw 0vw !important;
+        margin: 0 !important;
+        font-family: Roboto;
+        font-size: 2.5vw;
+        font-weight: 400;
+        line-height: 3.2vw;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .accordion-body p {
+        font-family: Roboto;
+        font-size: 2.5vw;
+        font-weight: 400;
+        line-height: 3vw;
+        letter-spacing: 0em;
+        text-align: left;
+    }
 }

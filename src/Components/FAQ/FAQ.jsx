@@ -34,8 +34,9 @@ const FAQ = () => {
               data-aos-duration="2000"
               data-aos-once="true"
             >
-              Bagh-E is small aims to revolutionize agricultural practices and
-              empower farmers in agri-based developing countries.
+              Have questions? Find answers to frequently asked questions about
+              our services, platform, and how we're changing the face of
+              agriculture.
             </p>
           </div>
         </div>

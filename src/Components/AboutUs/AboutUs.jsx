@@ -38,8 +38,9 @@ const AboutUs = () => {
               data-aos-duration="2000"
               data-aos-once="true"
             >
-              Bagh-e is small aims to revolutionize agricultural practices and
-              empower farmers in agri-based developing countries.
+              Driven by a mission to uplift the agricultural community, we offer
+              innovative financial solutions and support for farmers. Discover
+              our journey towards sustainable farming.
             </p>
           </div>
         </div>

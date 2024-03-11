@@ -152,11 +152,11 @@
 @media (max-width: 600px) {
 
     .contactform {
-        padding-bottom: 36vw;
+        padding-bottom: 22vw;
     }
 
     .spacingContact {
-        padding: 2rem;
+        padding: 6vw;
     }
 
     .contactLeft {
@@ -165,26 +165,43 @@
     }
 
     .contactLeft h5 {
-        font-size: 24px;
-        margin-bottom: 22px;
+        font-size: 6vw;
+        margin-bottom: 3vw;
+    }
+
+    .contactLeft button {
+        font-size: 3vw;
+        font-weight: 500;
+        line-height: 1.6vw;
+        word-wrap: break-word;
+        margin-top: 4vw;
+        width: 100%;
+        padding: 3vw 0vw;
+        background-color: #418E05;
+        border: none;
+        border-radius: 4vw;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        font-family: Poppins;
     }
 
     .contactRight {
-        padding: 8vw 1vw;
+        padding: 12vw 1vw;
     }
 
     .contactRight h5 {
-        font-size: 24px;
-        margin-bottom: 22px;
+        font-size: 6vw;
+        margin-bottom: 6vw;
     }
 
     .contactRight p {
-        font-size: 18px;
+        font-size: 4vw;
+        line-height: 5vw;
     }
 
     .contactMap {
         overflow: hidden;
-        height: 50%;
+        height: 60%;
         position: relative;
     }
 
@@ -199,13 +216,14 @@
 
 
     .socialMedia {
-        gap: 10px;
+        gap: 4vw;
     }
 
     .socialMedia i {
         color: black;
-        padding: 5px;
+        padding: 1.5vw;
         background-color: #fff;
+        border-radius: 3vw;
     }
 
 }

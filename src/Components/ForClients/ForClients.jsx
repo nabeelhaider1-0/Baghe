@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useLayoutEffect } from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -32,8 +33,8 @@ const ForClients = () => {
               data-aos-duration="2000"
               data-aos-once="true"
             >
-              Bagh-E is small aims to revolutionize agricultural practices and
-              empower farmers in agri-based developing countries.
+              Let's connect! Reach out to us for any inquiries or support needed
+              to join our platform and empower your farming journey.
             </p>
           </div>
         </div>

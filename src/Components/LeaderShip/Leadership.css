@@ -176,20 +176,20 @@
 
     .TeamExcutiveRight h5 {
         color: #418E05;
-        font-size: 7vw;
+        font-size: 6vw;
         font-weight: 600;
     }
 
     .TeamExcutiveRight h3 {
         color: #000000;
-        font-size: 8vw;
+        font-size: 6vw;
         font-weight: 500;
         padding-right: 2vw;
     }
 
     .TeamExcutiveRight p {
         color: #000000;
-        font-size: 5vw;
+        font-size: 3vw;
         font-weight: 400;
         padding-right: 0vw;
         text-align: left;
@@ -198,13 +198,13 @@
     .TeamExcutiveRight button {
         background-color: #418E05;
         border: none;
-        border-radius: 5vw;
+        border-radius: 4vw;
         color: white;
-        padding: 3vw 6vw;
+        padding: 2.6vw 4vw;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 4vw;
+        font-size: 3vw;
         margin: 1vw 0vw;
         transition-duration: 0.4s;
         cursor: pointer;

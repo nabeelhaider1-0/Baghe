@@ -41,33 +41,34 @@
 
 @media (max-width: 600px) {
     .uplaodedContentbg {
-        padding: 20px;
-        padding-top: 50px;
+        padding: 6vw;
+        padding-top: 14vw;
     }
 
     .uplaodedContentbg h5 {
-        font-size: 22px;
+        font-size: 6vw;
         font-weight: 500;
         color: #418E05;
         text-align: left;
     }
 
     .uplaodedContentbg h3 {
-        font-size: 32px;
+        font-size: 6vw;
         font-weight: 600;
         color: #000000;
         text-align: left;
     }
 
     .farmerspic {
-        margin-top: 45px;
+        margin-top: 5vw;
     }
 
     .farmerspics {
-        margin-bottom: 20px;
+        margin-bottom: 5vw;
     }
 
     .farmerspics img {
-        width: 90vw;
+        width: 85vw;
+        padding-left: 2vw;
     }
 }

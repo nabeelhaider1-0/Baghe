@@ -48,31 +48,41 @@
 @media (max-width: 600px) {
     .footerbg {
         background-color: #000000;
-        padding: 20px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 6vw;
+        padding-top: 12vw;
+        padding-bottom: 6vw;
     }
 
     .footerLeft img {
-        width: 43vw;
-        margin-bottom: 23px;
+        width: 35vw;
+        margin-bottom: 6vw;
     }
 
     .footerRight {
         display: flex;
         justify-content: start;
         align-items: center;
-        font-size: 19px;
+        font-size: 4vw;
         color: #ffffff;
         font-weight: 400;
-        margin-bottom: 23px;
-        padding-left: 23px;
+        margin-bottom: 6vw;
+        padding-left: 5vw !important;
     }
 
     .greeni {
         color: #418E05;
         font-weight: 700;
-        font-size: 25px;
-        padding-left: 18px;
+        font-size: 6vw;
+        padding-left: 3vw !important;
+    }
+
+    .footmore {
+        width: 50vw !important;
+        margin-left: 0vw !important;
+    }
+
+    .footmore1 {
+        width: 50vw !important;
+        margin-left: 0vw !important;
     }
 }

@@ -12,20 +12,17 @@ const Empowering = () => {
       <div className="empoweringbg">
         <div className="empowertitle">
           <h3 data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
-            Empowering Farmers
+            Strengthening Agriculturists
           </h3>
           <p data-aos="slide-up" data-aos-duration="1500" data-aos-once="true">
-            At Bagh-e, we are revolutionizing the way farmers in agri-based
-            developing countries access financing and improve their per-acre
-            yields. Our tech-based, Shariah-compliant platform offers a
-            groundbreaking solution to address the challenges faced by farmers,
-            ensuring sustainable agricultural practices and economic growth.
+            Providing support and opportunities to farmers through a seamless
+            online platform. Join us in revolutionizing agriculture.
           </p>
         </div>
 
         <div className="minicardsline">
           <div className="container">
-            <div className="row">
+            <div className="row drapper">
               <div
                 className="col-md-2"
                 data-aos="fade-up"

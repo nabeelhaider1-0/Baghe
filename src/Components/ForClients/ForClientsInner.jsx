@@ -36,8 +36,9 @@ const ForClientsInner = () => {
               data-aos-duration="2000"
               data-aos-once="true"
             >
-              Bagh-E is small aims to revolutionize agricultural practices and
-              empower farmers in agri-based developing countries.
+              Our partners in growth: Meet the farmers and agricultural
+              businesses thriving with our digital financial solutions and
+              support.
             </p>
           </div>
         </div>

@@ -11,3 +11,28 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
+@media (man-width: 850px) {
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .text-center {
+    margin-top: 30px;
+  }
+
+  [data-aos] {
+    animation: none !important;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
