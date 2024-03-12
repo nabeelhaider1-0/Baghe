@@ -44,6 +44,32 @@
     color: #ffffff;
 }
 
+@media (max-width: 1024px) {
+    .footerRight {
+        width: 10vw !important;
+    }
+
+    .footmore {
+        width: 14.4vw !important;
+        margin-left: -1vw !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .footerRight {
+        width: 10vw !important;
+    }
+
+    .footmore {
+        width: 14.4vw !important;
+        margin-left: -1vw !important;
+    }
+
+    .footmore1 {
+        width: 12vw !important;
+        margin-left: 0vw !important;
+    }
+}
 
 @media (max-width: 600px) {
     .footerbg {
