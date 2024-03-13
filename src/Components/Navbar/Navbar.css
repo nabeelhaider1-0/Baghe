@@ -126,14 +126,16 @@ nav {
         height: 60px;
         width: 100%;
         padding: 8px 4vw !important;
-        background-color: #418E05;
+        background-color: #489e07;
     }
 
     .nav-link {
         font-size: 20px !important;
-        border-bottom: 1px solid #011D08;
-        color: white !important;
+        border-bottom: 1px solid #434141 !important;
+        color: black !important;
         text-align: center;
+        width: 70vw !important;
+        margin: auto !important;
     }
 
     .navbar-collapse {
@@ -141,12 +143,12 @@ nav {
     }
 
     .navbar-nav {
-        background-color: transparent;
-        backdrop-filter: blur(30px);
-        padding: 35px;
+        background-color: #418E05;
+        /* backdrop-filter: blur(30px); */
+        padding: 10vw !important;
         position: relative;
         z-index: 1;
-        padding-top: 3vw;
+        padding-top: 3vw !important;
     }
 
     .navbar-toggler {
@@ -182,7 +184,7 @@ nav {
     .socialnav i {
         color: #ffffff;
         padding: 0.6vw;
-        background-color: #6ea941;
+        background-color: #7bbc49;
         border-radius: 5px;
         transition: all 0.3s ease-in-out;
         font-size: 2.2vw;
@@ -205,20 +207,20 @@ nav {
 
     .nav-link {
         font-size: 18px !important;
-        border-bottom: 1px solid #011D08;
+        border-bottom: 1px solid #a9a9a9 !important;
         color: white !important;
         text-align: center;
+        text-shadow: 2px 2px 8px #000000;
     }
 
     .navbar-nav {
-        background-color: transparent;
-        backdrop-filter: blur(30px);
-        padding: 35px;
+        background-color: #489e07;
+        padding: 8vw !important;
     }
 
     .navbar-collapse {
         z-index: 1;
-        padding-top: 5px;
+        padding-top: 1.5vw;
     }
 
     .nav-link::before,
@@ -287,9 +289,10 @@ nav {
     .socialnav i {
         color: #ffffff;
         padding: 0.9vw;
-        background-color: #6ea941;
+        background-color: #7bbc49;
         border-radius: 5px;
         transition: all 0.3s ease-in-out;
-        font-size: 3vw;
+        font-size: 4vw;
+        margin-top: 1vw !important;
     }
 }

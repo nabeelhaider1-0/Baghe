@@ -75,7 +75,7 @@ const CaseStudy = () => {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            <div className="image-container">
+            <div className="image-container misi">
               <img src={mission} alt="mission" />
               <div className="text-overlay">
                 <div className="row">

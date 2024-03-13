@@ -74,41 +74,37 @@
 @media (max-width: 600px) {
     .footerbg {
         background-color: #000000;
-        padding: 6vw;
-        padding-top: 12vw;
-        padding-bottom: 6vw;
+        padding: 6vw !important;
+        padding-top: 12vw !important;
+        padding-bottom: 6vw !important;
     }
 
     .footerLeft img {
-        width: 35vw;
-        margin-bottom: 6vw;
+        width: 35vw !important;
+        margin-bottom: 6vw !important;
     }
 
     .footerRight {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        font-size: 4vw;
+        display: flex !important;
+        justify-content: start !important;
+        align-items: center !important;
+        font-size: 4vw !important;
         color: #ffffff;
         font-weight: 400;
-        margin-bottom: 6vw;
+        margin-bottom: 6vw !important;
         padding-left: 5vw !important;
+        width: 50vw !important;
     }
 
     .greeni {
         color: #418E05;
         font-weight: 700;
-        font-size: 6vw;
+        font-size: 6vw !important;
         padding-left: 3vw !important;
+        /* width: 100vw !important; */
     }
 
     .footmore {
-        width: 50vw !important;
-        margin-left: 0vw !important;
-    }
-
-    .footmore1 {
-        width: 50vw !important;
         margin-left: 0vw !important;
     }
 }

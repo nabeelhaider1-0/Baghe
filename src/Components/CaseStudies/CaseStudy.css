@@ -81,6 +81,11 @@
         height: calc(100vh - 85vh);
     }
 
+
+    .misi img {
+        margin-top: 6vw;
+    }
+
     .casestudybg {
         background-size: contain;
         /* Example adjustment */

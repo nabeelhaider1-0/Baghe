@@ -151,7 +151,7 @@
 
 
     .minicardsbody img {
-        height: 18vw;
+        height: 18vw !important;
         width: 100%;
         object-fit: contain;
     }
