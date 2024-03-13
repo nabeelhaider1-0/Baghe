@@ -17,6 +17,27 @@
     font-family: Poppins;
 }
 
+.input-wrapper {
+    position: relative;
+}
+
+
+.asterisk {
+    position: absolute;
+    top: 32%;
+    transform: translateY(-50%);
+    color: #418E05;
+}
+
+.missing-fields-message {
+    display: block;
+    color: #418E05;
+    font-size: 1vw;
+    margin-bottom: 0.5vw;
+    margin-top: 0.5vw;
+    padding-left: 1vw;
+}
+
 .contactLeft button {
     color: white;
     font-size: 1.1vw;
@@ -59,17 +80,19 @@
 
 .contactRight p {
     color: #000000;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     font-weight: 400;
     line-height: 2vw;
     word-wrap: break-word;
     margin-bottom: 1.2vw;
     font-family: Poppins;
+    padding-left: 0;
+    /* Adjust this value to align the text */
 }
 
 .contactRight p i {
     color: #418E05;
-    margin-right: 0.51vw;
+    margin-right: 1vw;
 }
 
 .contactMap {
@@ -149,6 +172,14 @@
 }
 
 
+@media (max-width: 884px) {
+    .contactMap {
+        overflow: hidden;
+        height: 55%;
+        position: relative;
+    }
+}
+
 @media (max-width: 600px) {
 
     .contactform {
@@ -169,6 +200,20 @@
         margin-bottom: 3vw;
     }
 
+    .asterisk {
+        position: absolute;
+        left: 26vw;
+        top: 39%;
+        transform: translateY(-50%);
+    }
+
+    .missing-fields-message {
+        display: block;
+        font-size: 3vw;
+        margin-top: 1vw;
+        padding-left: 4vw;
+    }
+
     .contactLeft button {
         font-size: 3vw;
         font-weight: 500;
@@ -187,6 +232,7 @@
 
     .contactRight {
         padding: 12vw 1vw;
+        padding-bottom: 32vw;
     }
 
     .contactRight h5 {
@@ -201,7 +247,7 @@
 
     .contactMap {
         overflow: hidden;
-        height: 60%;
+        height: 105%;
         position: relative;
     }
 

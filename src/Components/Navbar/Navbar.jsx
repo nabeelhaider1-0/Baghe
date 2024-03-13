@@ -120,11 +120,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item d-flex .justify-content-center align-items-center socialnav">
-              <Link to="/contactUs">
+              <Link
+                to="https://www.facebook.com/company/bagh-e/"
+                target="blank"
+              >
                 <i className="fa-brands fa-facebook"></i>
               </Link>
 
-              <Link to="/contactUs">
+              <Link to="https://www.twitter.com/company/bagh-e/" target="blank">
                 <i className="fa-brands fa-x-twitter"></i>
               </Link>
 
