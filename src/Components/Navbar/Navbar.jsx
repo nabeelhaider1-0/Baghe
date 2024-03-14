@@ -62,6 +62,7 @@ const Navbar = () => {
                 aria-expanded="false"
               >
                 Who Are We
+                <i className="fa-solid fa-chevron-down"></i>
               </Link>
               <ul className="dropdown-menu">
                 <li>
@@ -93,6 +94,7 @@ const Navbar = () => {
                 aria-expanded="false"
               >
                 Services
+                <i className="fa-solid fa-chevron-down"></i>
               </Link>
               <ul className="dropdown-menu">
                 <li>

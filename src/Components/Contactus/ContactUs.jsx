@@ -162,7 +162,11 @@ const ContactUs = () => {
                     <input
                       ref={nameInputRef}
                       type="text"
-                      className="form-control my-3"
+                      className={`form-control my-3 ${
+                        isMissingName && formData.name === ""
+                          ? "error-input"
+                          : ""
+                      }`}
                       placeholder="Name"
                       name="name"
                       value={formData.name}
@@ -170,14 +174,14 @@ const ContactUs = () => {
                       onFocus={handleFocus}
                       onBlur={handleBlur}
                     />
-                    {isMissingName && (
-                      <span className="missing-fields-message">
-                        {"Name is required"}
-                      </span>
-                    )}
+
                     {!isTyping && (
                       <span
-                        className="asterisk"
+                        className={`asterisk ${
+                          isMissingName && formData.name === ""
+                            ? "error-asterisk"
+                            : ""
+                        }`}
                         style={{ left: `${namePlaceholderWidth + 16}px` }}
                       >
                         *
@@ -192,7 +196,11 @@ const ContactUs = () => {
                     <input
                       ref={emailInputRef}
                       type="email"
-                      className="form-control my-3"
+                      className={`form-control my-3 ${
+                        isMissingEmail && formData.email === ""
+                          ? "error-input"
+                          : ""
+                      }`}
                       placeholder="Email"
                       name="email"
                       value={formData.email}
@@ -200,14 +208,14 @@ const ContactUs = () => {
                       onFocus={handleFocus1}
                       onBlur={handleBlur1}
                     />
-                    {isMissingEmail && (
-                      <span className="missing-fields-message">
-                        {"Email is required"}
-                      </span>
-                    )}
+
                     {!isTyping1 && (
                       <span
-                        className="asterisk"
+                        className={`asterisk ${
+                          isMissingEmail && formData.email === ""
+                            ? "error-asterisk"
+                            : ""
+                        }`}
                         style={{ left: `${emailPlaceholderWidth + 16}px` }}
                       >
                         *
@@ -221,7 +229,11 @@ const ContactUs = () => {
                   >
                     <textarea
                       ref={messageInputRef}
-                      className="form-control"
+                      className={`form-control ${
+                        isMissingMessage && formData.message === ""
+                          ? "error-input"
+                          : ""
+                      }`}
                       placeholder="Message"
                       rows={1}
                       name="message"
@@ -230,14 +242,14 @@ const ContactUs = () => {
                       onFocus={handleFocus4}
                       onBlur={handleBlur4}
                     />
-                    {isMissingMessage && (
-                      <span className="missing-fields-message">
-                        {"Message is required"}
-                      </span>
-                    )}
+
                     {!isTyping4 && (
                       <span
-                        className="asterisk"
+                        className={`asterisk ${
+                          isMissingMessage && formData.message === ""
+                            ? "error-asterisk"
+                            : ""
+                        }`}
                         style={{ left: `${messagePlaceholderWidth + 16}px` }}
                       >
                         *

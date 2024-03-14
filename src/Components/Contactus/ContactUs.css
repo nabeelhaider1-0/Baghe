@@ -171,6 +171,13 @@
     box-shadow: none !important;
 }
 
+.error-input::placeholder {
+    color: red !important;
+}
+
+.error-asterisk {
+    color: red !important;
+}
 
 @media (max-width: 884px) {
     .contactMap {
@@ -231,8 +238,8 @@
     }
 
     .contactRight {
-        padding: 12vw 1vw;
-        padding-bottom: 32vw;
+        padding: 12vw 1vw !important;
+        padding-bottom: 32vw !important;
     }
 
     .contactRight h5 {
