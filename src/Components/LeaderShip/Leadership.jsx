@@ -21,7 +21,13 @@ const Leadership = () => {
                   <div className="card-body teamcardbody">
                     <img src={farmer1} alt="farmer1" />
                     <h5 className="card-title teamcardtitle">Mujtaba Khalid</h5>
-                    <p className="card-text teamcardtext"> Founder</p>
+                    <p className="card-text teamcardtext">Co-Founder</p>
+                    <Link
+                      to="https://www.linkedin.com/in/mujtaba-khalid-60664620/"
+                      target="blank"
+                    >
+                      <i className="fab fa-linkedin" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -31,7 +37,13 @@ const Leadership = () => {
                   <div className="card-body teamcardbody">
                     <img src={farmer2} alt="farmer2" />
                     <h5 className="card-title teamcardtitle">Hassan Nomani</h5>
-                    <p className="card-text teamcardtext">Director Partner</p>
+                    <p className="card-text teamcardtext">Co-Founder</p>
+                    <Link
+                      to="https://www.linkedin.com/in/mujtaba-khalid-60664620/"
+                      target="blank"
+                    >
+                      <i className="fab fa-linkedin" />
+                    </Link>
                   </div>
                 </div>
               </div>

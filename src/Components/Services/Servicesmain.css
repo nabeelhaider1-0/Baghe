@@ -22,7 +22,7 @@
         position: relative;
         width: 100vw;
         /* Set width to viewport width */
-        height: calc(100vh - 85vh);
+        height: calc(100vw - 68.1vw);
         /* Set height to viewport height minus 60px */
     }
 

@@ -48,6 +48,24 @@
 
 }
 
+.teamcards a {
+    position: absolute;
+}
+
+.teamcards .fa-linkedin {
+    font-size: 1.8vw;
+    color: #418E05;
+    top: -3.3vw;
+    left: 16.1vw;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.teamcards .fa-linkedin:hover {
+
+    color: #295d02;
+}
+
 .TeamExcutiveRight {
     position: relative;
     padding-left: 3vw !important;
@@ -122,6 +140,17 @@
     background-color: #1a3903;
 }
 
+@media (max-width: 1024px) {
+    .teamcards .fa-linkedin {
+        font-size: 1.8vw;
+        color: #418E05;
+        top: -4.3vw;
+        left: 16.1vw;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
 @media (max-width: 600px) {
     .TeamExcutive {
         padding: 8vw !important;
@@ -166,6 +195,15 @@
         color: #418E05;
         font-size: 3vw;
         font-weight: 600;
+    }
+
+    .teamcards .fa-linkedin {
+        font-size: 5vw;
+        color: #418E05;
+        top: -11vw;
+        left: 52vw;
+        position: relative;
+        transition: all 0.3s ease-in-out;
     }
 
     .TeamExcutiveRight {
@@ -230,5 +268,15 @@
     .TeamExcutiveRight i:hover {
         box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
         background-color: #1a3903;
+    }
+
+    .linkedin-icon {
+        margin-left: 28.5vw;
+    }
+
+    .linkedin-icon i {
+        font-size: 4vw;
+        color: #418E05;
+        transition: all 0.3s ease-in-out;
     }
 }

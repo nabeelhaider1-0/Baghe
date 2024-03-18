@@ -7,6 +7,7 @@ import Footer from "../Footer/Footer";
 import LowerHeader1 from "../LowerHeader/LowerHeader1";
 import ContactUs from "../Contactus/ContactUs";
 import "./OurTeam.css";
+import { Link } from "react-router-dom";
 
 const OurTeam = () => {
   useLayoutEffect(() => {
@@ -54,11 +55,17 @@ const OurTeam = () => {
               data-aos-duration="600"
               data-aos-once="true"
             >
-              <div className="card text-white mb-3 teamcards">
+              <div className="card text-white mb-3 teamcards1">
                 <div className="card-body teamcardbody">
                   <img src={farmer1} alt="farmer1" />
                   <h5 className="card-title teamcardtitle">Mujtaba Khalid</h5>
-                  <p className="card-text teamcardtext">Founder</p>
+                  <p className="card-text teamcardtext">Co-Founder</p>
+                  <Link
+                    to="https://www.linkedin.com/in/mujtaba-khalid-60664620/"
+                    target="blank"
+                  >
+                    <i className="fab fa-linkedin" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,11 +75,17 @@ const OurTeam = () => {
               data-aos-duration="1200"
               data-aos-once="true"
             >
-              <div className="card text-white mb-3 teamcards">
+              <div className="card text-white mb-3 teamcards1">
                 <div className="card-body teamcardbody">
                   <img src={farmer2} alt="farmer1" />
                   <h5 className="card-title teamcardtitle">Ehtisham Hameed</h5>
-                  <p className="card-text teamcardtext">Co-Founder</p>
+                  <p className="card-text teamcardtext">Director Partner</p>
+                  <Link
+                    to="https://www.linkedin.com/in/ehtisham-hameed-865315141/"
+                    target="blank"
+                  >
+                    <i className="fab fa-linkedin" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -82,11 +95,17 @@ const OurTeam = () => {
               data-aos-duration="1800"
               data-aos-once="true"
             >
-              <div className="card text-white mb-3 teamcards">
+              <div className="card text-white mb-3 teamcards1">
                 <div className="card-body teamcardbody">
                   <img src={hassannomani} alt="farmer1" />
                   <h5 className="card-title teamcardtitle">Hassan Nomani</h5>
-                  <p className="card-text teamcardtext">Director Partner</p>
+                  <p className="card-text teamcardtext">Co-Founder</p>
+                  <Link
+                    to="https://www.linkedin.com/in/mujtaba-khalid-60664620/"
+                    target="blank"
+                  >
+                    <i className="fab fa-linkedin" />
+                  </Link>
                 </div>
               </div>
             </div>
