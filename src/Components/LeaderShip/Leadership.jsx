@@ -66,9 +66,9 @@ const Leadership = () => {
               boost both financial access and crop yields. Their combined vision
               fosters a brighter, more sustainable future for farmers worldwide.
             </p>
-            <Link to="/team">
+            {/* <Link to="/team">
               <button>More Team</button>
-            </Link>
+            </Link> */}
             {/* <i className="fas fa-arrow-right"></i> */}
           </div>
         </div>

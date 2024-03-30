@@ -94,4 +94,17 @@
         width: 85vw;
         padding-left: 2vw;
     }
+
+    .socialMedia1 i {
+        color: #ffffff;
+        padding: 1vw;
+        background-color: #6ea941;
+        border-radius: 1vw;
+        transition: all 0.3s ease-in-out;
+        font-size: 4vw;
+    }
+
+    .socialMedia1 {
+        gap: 4vw;
+    }
 }
