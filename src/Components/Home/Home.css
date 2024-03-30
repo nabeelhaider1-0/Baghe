@@ -129,17 +129,26 @@
 
 }
 
-.feature p {
+.featurelistmain {
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+
+.greenDot {
+    padding: 0.01vw 0.6vw;
+    background-color: #3AC218;
+    border-radius: 50%;
+    margin-right: 0.4vw;
+}
+
+.featurelist {
     color: #000000;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-weight: 400;
-    padding-left: 30vw;
-    padding-Right: 30vw;
-    text-align: center;
+    text-align: left;
     margin-top: 2vw;
-    letter-spacing: 0.1vw;
     font-family: Poppins;
-    text-align: center;
+    margin-bottom: 1vw;
 
 }
 
@@ -374,6 +383,30 @@
         text-align: left;
         margin-top: 3vw;
         letter-spacing: 0vw;
+    }
+
+    .featurelistmain {
+        padding-left: 0vw;
+        padding-top: 2vw;
+    }
+
+    .greenDot {
+        padding: 0.06vw 1.7vw;
+        background-color: #3AC218;
+        border-radius: 50%;
+        margin-right: 1vw;
+        font-size: 3vw;
+    }
+
+    .featurelist {
+        color: #000000;
+        font-size: 3.2vw;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 2vw;
+        font-family: Poppins;
+        margin-bottom: 1vw;
+
     }
 
     .featurecontainer {

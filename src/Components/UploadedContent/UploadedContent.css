@@ -38,6 +38,29 @@
     margin-bottom: 2vw;
 }
 
+.socialcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+
+.socialMedia1 {
+    gap: 0.8vw;
+}
+
+.socialMedia1 i {
+    color: #ffffff;
+    padding: 0.4vw;
+    background-color: #6ea941;
+    border-radius: 0.4vw;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.4vw;
+}
+
+.socialMedia1 i:hover {
+    background-color: #204107;
+}
 
 @media (max-width: 600px) {
     .uplaodedContentbg {

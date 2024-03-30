@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-irregular-whitespace */
 import "./Home.css";
 import Navbar from "../Navbar/Navbar";
@@ -75,12 +76,11 @@ const Home = () => {
             <h5>Introduction</h5>
             <h3>Bagh-e App</h3>
             <p>
-              Our goal is to transform agricultural finance, fostering
-              sustainable food systems, empowering farmers, and securing food
-              for generations to come. Through pioneering solutions, strategic
-              partnerships, and knowledge dissemination, we endeavor to reshape
-              the sector, fostering resilience, efficiency, and environmental
-              sustainability.
+              Bagh-e is a tech-based, Shariah-compliant platform that aims to
+              empower farmers in agri-based developing countries. We provide
+              innovative financing solutions, crop optimization guidance, and
+              direct sales connections to enhance agricultural practices and
+              economic growth.
             </p>
           </div>
         </div>
@@ -93,11 +93,61 @@ const Home = () => {
           <h3 data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
             Enhancing Farmers Lives Simplifying Agricultural Work
           </h3>
-          <p data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
-            The Bag-e Farmer App is designed to streamline and enhance the
-            agricultural experience for farmers. With a user-friendly interface
-            and robust features, it offers numerous benefits to farmers:
-          </p>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2500"
+            data-aos-once="true"
+            className="row featurelistmain"
+          >
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Free Sign-Up for Exclusive Content
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Financing Onboarding Process
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Geo-Location Verification
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Separate Dashboards for Farmers and Suppliers
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Upcoming Bagh-e Store Feature
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Exclusive Access for Physically Verified Users
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Intelligent Crop Selection Tool
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Personalized Farming Schedule
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Weekly Progress Checks by Bagh-e Representatives
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Comprehensive Farmer's Dashboard
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Efficient Supplier Selection and Transaction System
+            </div>
+            <div className="col-md-4 featurelist">
+              <span className="greenDot"></span>
+              Free Access to Agricultural Consultants
+            </div>
+          </div>
         </div>
       </div>
       <div

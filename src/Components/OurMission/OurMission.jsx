@@ -41,7 +41,7 @@ const OurMission = () => {
           >
             <h3>Our Mission</h3>
             <p>
-              At Bagh-E, we're on a mission to revolutionize the agricultural
+              At Bagh-e, we're on a mission to revolutionize the agricultural
               landscape in developing nations through innovative solutions that
               empower farmers and drive sustainable growth. With a deep
               understanding of the challenges faced by farmers in accessing

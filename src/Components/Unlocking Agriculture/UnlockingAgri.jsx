@@ -101,7 +101,7 @@ const UnlockingAgri = () => {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            <p> Why choose us?</p>
+            {/* <p> Why choose us?</p> */}
             <h3>
               Unlocking <br /> Agricultural Potential.
             </h3>
@@ -124,8 +124,9 @@ const UnlockingAgri = () => {
               >
                 <div className="itemplus ">
                   <span className="plusviewText">
-                    Our flexible and customizable products empower farmers to
-                    maximize yield and efficiency.
+                    Offering a wide range of products tailored to meet the
+                    unique needs and challenges of our clients, ensuring
+                    flexibility and customization at every step.
                   </span>
                 </div>
               </div>
@@ -136,7 +137,7 @@ const UnlockingAgri = () => {
                 aria-expanded={!isCollapsed}
                 aria-controls="collapseExample"
               >
-                <i className={`fas ${isCollapsed1 ? "fa-plus" : "fa-minus"}`} />{" "}
+                <i className={`fas ${isCollapsed1 ? "fa-plus" : "fa-minus"}`} />
                 <span className="plusviewText">Focused and Experienced</span>
               </div>
               <div
@@ -145,8 +146,9 @@ const UnlockingAgri = () => {
               >
                 <div className="itemplus">
                   <span className="plusviewText">
-                    Benefit from our focused and experienced approach in
-                    delivering top-notch solutions.
+                    Leveraging years of industry experience to provide focused
+                    and effective solutions, driving success through expertise
+                    and insight.
                   </span>
                 </div>
               </div>
@@ -157,7 +159,7 @@ const UnlockingAgri = () => {
                 aria-expanded={!isCollapsed}
                 aria-controls="collapseExample"
               >
-                <i className={`fas ${isCollapsed2 ? "fa-plus" : "fa-minus"}`} />{" "}
+                <i className={`fas ${isCollapsed2 ? "fa-plus" : "fa-minus"}`} />
                 <span className="plusviewText">Clients Centric Services</span>
               </div>
               <div
@@ -166,8 +168,9 @@ const UnlockingAgri = () => {
               >
                 <div className="itemplus">
                   <span className="plusviewText">
-                    Experience client-centric services designed to cater to your
-                    unique needs and preferences.
+                    Dedicated to putting our clients at the center of everything
+                    we do, ensuring personalized service and unparalleled
+                    support for their needs.
                   </span>
                 </div>
               </div>
@@ -178,7 +181,7 @@ const UnlockingAgri = () => {
                 aria-expanded={!isCollapsed}
                 aria-controls="collapseExample"
               >
-                <i className={`fas ${isCollapsed3 ? "fa-plus" : "fa-minus"}`} />{" "}
+                <i className={`fas ${isCollapsed3 ? "fa-plus" : "fa-minus"}`} />
                 <span className="plusviewText">Have a Best Solutions</span>
               </div>
               <div
@@ -187,8 +190,9 @@ const UnlockingAgri = () => {
               >
                 <div className="itemplus">
                   <span className="plusviewText">
-                    Our dedication ensures personalized solutions for every
-                    client, every time.
+                    Committed to excellence, we pride ourselves on delivering
+                    best-in-class solutions that are innovative, efficient, and
+                    effective.
                   </span>
                 </div>
               </div>

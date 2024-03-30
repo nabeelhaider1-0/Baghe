@@ -70,7 +70,7 @@ function Transforming() {
                         Digital Financing
                       </h5>
                       <p className="card-text transformingtext">
-                        Bagh-E offers digital financing solutions to farmers,
+                        Bagh-e offers digital financing solutions to farmers,
                         adhering to Shariah principles. Our technology-driven
                         platform enables farmers to access funds conveniently
                         and securely, eliminating the need for traditional
@@ -93,7 +93,7 @@ function Transforming() {
                       </h5>
                       <p className="card-text transformingtext">
                         We understand the inherent risks involved in
-                        agriculture. Bagh-E offers risk management solutions,
+                        agriculture. Bagh-e offers risk management solutions,
                         and weather-based risk assessment, to protect farmers
                         from unforeseen events that may impact their yields and
                         financial stability. 
@@ -115,7 +115,7 @@ function Transforming() {
                       </h5>
                       <p className="card-text transformingtext">
                         Leveraging advanced data analytics and AI technology,
-                        Bagh-E provides valuable insights to farmers. By
+                        Bagh-e provides valuable insights to farmers. By
                         analyzing historical data, weather patterns, and market
                         trends, we help farmers make informed decisions
                         regarding crop selection, yield optimization, and market
@@ -154,11 +154,11 @@ function Transforming() {
                   <div className="card text-white mb-3 transformingcards">
                     <div className="card-body transformingbody">
                       <img src={supplier} alt="supplier" />
-                      <h5 className="card-title transformingtitle">
-                        Data Analytics and Insights
+                      <h5 className="card-title transformingtitle lastcardtitle">
+                        Digital Credit
                       </h5>
                       <p className="card-text transformingtext">
-                        Bagh-E facilitates direct payments to approved
+                        Bagh-e facilitates direct payments to approved
                         raw-material suppliers, ensuring transparency and
                         accountability. Farmers can conveniently make purchases
                         through our platform,complexity and increasing

@@ -101,7 +101,7 @@ const OurTeam = () => {
                   <h5 className="card-title teamcardtitle">Hassan Nomani</h5>
                   <p className="card-text teamcardtext">Co-Founder</p>
                   <Link
-                    to="https://www.linkedin.com/in/mujtaba-khalid-60664620/"
+                    to="https://www.linkedin.com/in/hasan-nomani-6a502194/"
                     target="blank"
                   >
                     <i className="fab fa-linkedin" />

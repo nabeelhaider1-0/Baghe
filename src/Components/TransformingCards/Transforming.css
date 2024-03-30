@@ -68,6 +68,10 @@
 
 }
 
+.lastcardtitle {
+    margin-bottom: 2.6vw !important;
+}
+
 .transformrightpadding {
     padding-right: 2vw;
     padding-left: 2vw;
@@ -180,7 +184,7 @@
     .transformingbody img {
         height: 14vw;
         margin-top: 0.1vw;
-        margin-left: 30vw;
+        margin-left: 35vw;
     }
 
     .transformingtitle {

@@ -12,7 +12,7 @@ const Empowering = () => {
       <div className="empoweringbg">
         <div className="empowertitle">
           <h3 data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
-            Strengthening Agriculturists
+            Strengthening Small Scale Farmers
           </h3>
           <p data-aos="slide-up" data-aos-duration="1500" data-aos-once="true">
             Providing support and opportunities to farmers through a seamless

@@ -66,7 +66,7 @@ const FAQ = () => {
                 data-aos-once="true"
               >
                 <Accordion.Item eventKey="0" className="item">
-                  <Accordion.Header>1. What is Bagh-E?</Accordion.Header>
+                  <Accordion.Header>1. What is Bagh-e?</Accordion.Header>
                   <Accordion.Body>
                     At Bagh-e, we're at the forefront of a transformative
                     initiative aimed at empowering farmers in developing nations
@@ -77,10 +77,10 @@ const FAQ = () => {
                 </Accordion.Item>
                 <Accordion.Item eventKey="1" className="item">
                   <Accordion.Header>
-                    2. How does Bagh-E provide optimal crop recommendations?
+                    2. How does Bagh-e provide optimal crop recommendations?
                   </Accordion.Header>
                   <Accordion.Body>
-                    Bagh-E ensures optimal crop recommendations by employing a
+                    Bagh-e ensures optimal crop recommendations by employing a
                     state-of-the-art, technology-driven platform. Through
                     sophisticated algorithms and data analytics, we scrutinize
                     factors like soil quality, climate nuances, and market
@@ -93,34 +93,32 @@ const FAQ = () => {
                 </Accordion.Item>
                 <Accordion.Item eventKey="2" className="item">
                   <Accordion.Header>
-                    {" "}
-                    3.How can I access financing through Bagh-E?
+                    3.How can I access financing through Bagh-e?
                   </Accordion.Header>
                   <Accordion.Body>
-                    Securing financing through Bagh-E is a simple and
+                    Securing financing through Bagh-e is a simple and
                     streamlined process. Our user-friendly platform allows
                     farmers to apply for funding effortlessly, providing key
                     details about their farming operations and financial
                     requirements. After the application is submitted, our team
                     assesses it against predefined criteria. Upon approval, the
                     funds are promptly disbursed directly to the farmer.
-                    Moreover, Bagh-E emphasizes the Shariah-compliance of all
+                    Moreover, Bagh-e emphasizes the Shariah-compliance of all
                     financial transactions, ensuring farmers have ethical and
                     accessible financing options to bolster their
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3" className="item">
                   <Accordion.Header>
-                    {" "}
-                    4. What is the Bagh-E Store?
+                    4. What is the Bagh-e Store?
                   </Accordion.Header>
                   <Accordion.Body>
-                    The Bagh-E Store serves as a comprehensive marketplace
+                    The Bagh-e Store serves as a comprehensive marketplace
                     embedded within our platform, specifically crafted to grant
                     farmers easy access to top-notch agricultural inputs,
                     equipment, and crucial resources essential for maximizing
                     their farming endeavors. Whether it's seeds, fertilizers,
-                    irrigation systems, or machinery, the Bagh-E Store features
+                    irrigation systems, or machinery, the Bagh-e Store features
                     a varied selection of products meticulously chosen to cater
                     to the distinct requirements of farmers. This integrated
                     platform enables farmers to seamlessly explore, purchase,
@@ -131,33 +129,33 @@ const FAQ = () => {
                 </Accordion.Item>
                 <Accordion.Item eventKey="4" className="item">
                   <Accordion.Header>
-                    5. What support does Bagh-E provide?
+                    5. What support does Bagh-e provide?
                   </Accordion.Header>
                   <Accordion.Body>
                     <ul>
                       <li>
-                        <strong>Financial Aid:</strong> Bagh-E provides
+                        <strong>Financial Aid:</strong> Bagh-e provides
                         accessible financing solutions tailored to farmers'
                         needs, facilitating funds for input purchases,
                         technological investments, and operational expansion.
                       </li>
                       <li>
                         <strong>Crop Guidance:</strong> Leveraging our
-                        tech-driven platform, Bagh-E furnishes farmers with
+                        tech-driven platform, Bagh-e furnishes farmers with
                         optimal crop recommendations, considering factors like
                         soil quality, climate nuances, and market trends. This
                         empowers farmers to make informed choices for maximizing
                         yields.
                       </li>
                       <li>
-                        <strong>Agricultural Supplies:</strong> The Bagh-E Store
+                        <strong>Agricultural Supplies:</strong> The Bagh-e Store
                         boasts a diverse array of top-quality agricultural
                         inputs, including seeds, fertilizers, pesticides, and
                         equipment. This ensures farmers have ready access to
                         resources that elevate productivity.
                       </li>
                       <li>
-                        <strong>Training and Education:</strong> Bagh-E equips
+                        <strong>Training and Education:</strong> Bagh-e equips
                         farmers with training and educational materials,
                         enhancing their agricultural practices, promoting
                         sustainability, and refining overall farming skills.
@@ -169,7 +167,7 @@ const FAQ = () => {
                         aiding them in optimizing their farming operations.
                       </li>
                       <li>
-                        <strong>Market Connectivity:</strong> Bagh-E acts as a
+                        <strong>Market Connectivity:</strong> Bagh-e acts as a
                         bridge, connecting farmers with markets and buyers,
                         opening avenues for them to explore new opportunities to
                         sell their produce and maximize profitability.
@@ -177,19 +175,19 @@ const FAQ = () => {
                     </ul>
                     <p>
                       Through this comprehensive range of support services,
-                      Bagh-E empowers farmers to navigate challenges, embrace
+                      Bagh-e empowers farmers to navigate challenges, embrace
                       sustainable practices, and achieve prosperity in their
                       agricultural pursuits.
                     </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="5" className="item">
-                  <Accordion.Header>6. How can I join Bagh-E?</Accordion.Header>
+                  <Accordion.Header>6. How can I join Bagh-e?</Accordion.Header>
                   <Accordion.Body>
                     <ul>
                       <li>
                         <strong>Sign Up:</strong> Visit our website or download
-                        the Bagh-E mobile app to create an account. Fill in your
+                        the Bagh-e mobile app to create an account. Fill in your
                         profile details, including your name, contact
                         information, and farm location.
                       </li>
@@ -200,7 +198,7 @@ const FAQ = () => {
                         size, and your financial requirements.
                       </li>
                       <li>
-                        <strong>Access Services:</strong> Explore Bagh-E's array
+                        <strong>Access Services:</strong> Explore Bagh-e's array
                         of services, ranging from financial assistance and crop
                         recommendations to agricultural inputs, training,
                         technical support, and market access.
@@ -208,37 +206,37 @@ const FAQ = () => {
                       <li>
                         <strong>Apply for Financing:</strong> If you need
                         financial support for your farming operations, submit a
-                        financing application through the Bagh-E platform. Our
+                        financing application through the Bagh-e platform. Our
                         team will review your application and, upon approval,
                         disburse funds directly to you.
                       </li>
                       <li>
                         <strong>Utilize Resources:</strong> Take advantage of
-                        the resources available on the Bagh-E platform to refine
+                        the resources available on the Bagh-e platform to refine
                         your farming practices, boost productivity, and enhance
                         profitability.
                       </li>
                       <li>
                         <strong>Connect with Community:</strong> Engage with
-                        fellow farmers and experts in the Bagh-E community.
+                        fellow farmers and experts in the Bagh-e community.
                         Share knowledge, experiences, and best practices,
                         fostering collaboration and continuous learning.
                       </li>
                     </ul>
                     <p>
-                      By following these steps, you'll seamlessly join Bagh-E
+                      By following these steps, you'll seamlessly join Bagh-e
                       and gain access to the support you need for success in
-                      your agricultural pursuits. Welcome to the Bagh-E family!
+                      your agricultural pursuits. Welcome to the Bagh-e family!
                     </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="6" className="item">
                   <Accordion.Header>
-                    7.Can I use the financing provided by Bagh-E for any purpose
+                    7.Can I use the financing provided by Bagh-e for any purpose
                     related to agriculture?
                   </Accordion.Header>
                   <Accordion.Body>
-                    Bagh-E's financing options are flexible, allowing farmers to
+                    Bagh-e's financing options are flexible, allowing farmers to
                     address their specific needs and invest in initiatives that
                     contribute to the overall improvement and sustainability of
                     their agricultural operations.
@@ -246,32 +244,32 @@ const FAQ = () => {
                 </Accordion.Item>
                 <Accordion.Item eventKey="7" className="item">
                   <Accordion.Header>
-                    8. Is Bagh-E compliant with Shariah principles?
+                    8. Is Bagh-e compliant with Shariah principles?
                   </Accordion.Header>
                   <Accordion.Body>
                     <ul>
                       <li>
-                        <strong>Prohibition of Riba (Interest):</strong> Bagh-E
+                        <strong>Prohibition of Riba (Interest):</strong> Bagh-e
                         strictly avoids any form of interest in financial
                         transactions, aligning with the Islamic prohibition of
                         riba.
                       </li>
                       <li>
-                        <strong>Ethical Investment:</strong> Bagh-E ensures that
+                        <strong>Ethical Investment:</strong> Bagh-e ensures that
                         all investments and financing activities adhere to
                         Shariah principles, avoiding involvement in
                         non-compliant sectors such as gambling, alcohol, and
                         unethical practices.
                       </li>
                       <li>
-                        <strong>Transparency and Fairness:</strong> Bagh-E
+                        <strong>Transparency and Fairness:</strong> Bagh-e
                         upholds transparency in all its operations and financial
                         dealings, guaranteeing fair and equitable treatment for
                         all stakeholders.
                       </li>
                     </ul>
                     <p>
-                      By steadfastly following these principles, Bagh-E provides
+                      By steadfastly following these principles, Bagh-e provides
                       farmers with access to Shariah-compliant financing
                       options, reflecting a commitment to ethical and moral
                       values within the realm of Islamic finance.

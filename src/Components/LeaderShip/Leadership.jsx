@@ -39,7 +39,7 @@ const Leadership = () => {
                     <h5 className="card-title teamcardtitle">Hassan Nomani</h5>
                     <p className="card-text teamcardtext">Co-Founder</p>
                     <Link
-                      to="https://www.linkedin.com/in/mujtaba-khalid-60664620/"
+                      to="https://www.linkedin.com/in/hasan-nomani-6a502194/"
                       target="blank"
                     >
                       <i className="fab fa-linkedin" />
@@ -58,12 +58,13 @@ const Leadership = () => {
             <h5>Our Team</h5>
             <h3>Meet Our Executive Leadership</h3>
             <p>
-              We're a team filled with diversity and ambition, thrilled about
-              our work. Our goal is to cultivate a culture that prioritizes
-              individuals over procedures. We wholeheartedly endorse the concept
-              of a Dream Team, where exceptional and admirable individuals
-              collaborate to instigate revolutionary changes that positively
-              impact humanity.
+              Guiding Bagh-e is a team of leaders who merge innovation with
+              adherence to Shariah principles, dedicated to uplifting
+              economically disadvantaged farmers. With backgrounds in digital
+              finance, agronomy, and Islamic economics, they’ve developed Bagh-e
+              to offer digital credit and tailored farming insights, aiming to
+              boost both financial access and crop yields. Their combined vision
+              fosters a brighter, more sustainable future for farmers worldwide.
             </p>
             <Link to="/team">
               <button>More Team</button>
