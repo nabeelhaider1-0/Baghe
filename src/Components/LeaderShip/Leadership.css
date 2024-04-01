@@ -25,8 +25,7 @@
 }
 
 .teamcardbody img {
-    width: 100%;
-    height: 100%;
+    width: 18vw !important;
 }
 
 .teamcardtitle {
@@ -139,6 +138,17 @@
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     background-color: #1a3903;
 }
+
+/* @media (max-width: 1990px) {
+    .teamcards .fa-linkedin {
+        font-size: 1.8vw;
+        color: #418E05;
+        top: -3.3vw;
+        left: 16.1vw;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+    }
+} */
 
 @media (max-width: 1024px) {
     .teamcards .fa-linkedin {

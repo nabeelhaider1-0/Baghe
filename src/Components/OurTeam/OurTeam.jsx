@@ -98,7 +98,7 @@ const OurTeam = () => {
               <div className="card text-white mb-3 teamcards1">
                 <div className="card-body teamcardbody">
                   <img src={hassannomani} alt="farmer1" />
-                  <h5 className="card-title teamcardtitle">Hassan Nomani</h5>
+                  <h5 className="card-title teamcardtitle">Hasan Nomani</h5>
                   <p className="card-text teamcardtext">Co-Founder</p>
                   <Link
                     to="https://www.linkedin.com/in/hasan-nomani-6a502194/"
