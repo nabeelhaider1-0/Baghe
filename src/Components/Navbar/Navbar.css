@@ -26,23 +26,64 @@ nav {
 }
 
 .dropdown-menu {
-    --bs-dropdown-min-width: 10rem;
+    --bs-dropdown-min-width: 9rem !important;
     --bs-dropdown-font-size: 22px;
     --bs-dropdown-color: #fff;
-    --bs-dropdown-bg: #FFF !important;
-    --bs-dropdown-border-radius: 0;
+    --bs-dropdown-bg: #112700 !important;
+    --bs-dropdown-border-radius: 0.5vw !important;
     --bs-dropdown-link-active-color: #fff;
-    --bs-dropdown-link-active-bg: #426428 !important;
-    text-align: center;
+    --bs-dropdown-link-active-bg: #418E05 !important;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.207) !important;
+    text-align: center !important;
+    border: 2px solid #418E05 !important;
+    margin-top: 1vw !important;
+    overflow: visible !important;
 }
+
+.dropdown-menu:before {
+    content: '';
+    position: absolute !important;
+    top: -0.6vw !important;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0 1vw 1vw 1vw;
+    border-style: solid;
+    border-color: transparent transparent #112700 transparent;
+    z-index: 1;
+}
+
 
 .dropdown-menu[data-bs-popper] {
     top: 85%;
 }
 
 .dropdown-item {
-    color: #fff;
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
 
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+    color: #55b70b !important;
+}
+
+.dropdown-item {
+    color: #fff !important;
+
+}
+
+.nav-item.dropdown .dropdown-menu {
+    display: block;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.9s ease;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    max-height: 120px;
+    opacity: 1;
 }
 
 
@@ -74,7 +115,6 @@ nav {
 .dropdown-toggle::after {
     display: none !important;
 }
-
 
 
 .navbar-toggler {
@@ -173,6 +213,15 @@ nav {
         background-image: url("/src/assets/menuline.png") !important;
         font-size: 3vw;
         margin-top: -1vw;
+    }
+
+    .dropdown-menu:before {
+        top: 6.1vw !important;
+        border-width: 0 1vh 1vh 1vh;
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-border-radius: 1.5vh !important;
     }
 
     .socialnav {
@@ -306,5 +355,14 @@ nav {
         transition: all 0.3s ease-in-out;
         font-size: 4vw;
         margin-top: 1vw !important;
+    }
+
+    .dropdown-menu:before {
+        top: -0.7rem !important;
+        border-width: 0 1.5vh 1.5vh 1.5vh;
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-border-radius: 1.5vh !important;
     }
 }
