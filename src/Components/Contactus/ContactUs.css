@@ -179,6 +179,21 @@
     color: red !important;
 }
 
+.spacingContact.loading {
+    opacity: 0.8;
+    /* Lower the opacity when loading */
+    pointer-events: none;
+    /* Disable pointer events */
+}
+
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
 @media (max-width: 884px) {
     .contactMap {
         overflow: hidden;

@@ -4,7 +4,7 @@ import "./Home.css";
 import Navbar from "../Navbar/Navbar";
 import Empowering from "../EmpoweringFarmers/Empowering";
 import UnlockingAgri from "../Unlocking Agriculture/UnlockingAgri";
-import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
+// import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
 // import Transforming from "../TransformingCards/Transforming";
 import Leadership from "../LeaderShip/Leadership";
 import intropic from "../../assets/bagheintro.png";
@@ -46,15 +46,15 @@ const Home = () => {
               data-aos-duration="2000"
               data-aos-once="true"
             >
-              Bagh-e is small aims to revolutionize agricultural practices and
-              empower farmers in agri-based developing countries.
+              Introducing Bagh-e, an innovative app-based solution designed to
+              empower small-scale farmers by providing digital credit.
             </p>
           </div>
         </div>
       </div>
       <Empowering />
       <UnlockingAgri />
-      <TrustedCompanies />
+      {/* <TrustedCompanies /> */}
       {/* <Transforming /> */}
       <Leadership />
       <div className="introductionbg">

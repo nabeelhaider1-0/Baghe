@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import "./ContactUs.css";
 import { useEffect, useRef, useState } from "react";
-
+import Loader from "../../assets/loader.gif";
 const ContactUs = () => {
   // State variables to store form data
   const [formData, setFormData] = useState({
@@ -22,7 +22,7 @@ const ContactUs = () => {
   const [isMissingName, setIsMissingName] = useState(false);
   const [isMissingEmail, setIsMissingEmail] = useState(false);
   const [isMissingMessage, setIsMissingMessage] = useState(false);
-
+  const [isLoading, setIsLoading] = useState(false);
   // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -55,19 +55,33 @@ const ContactUs = () => {
     if (missingFields.length > 0) {
       return;
     }
+    // Show loader and disable form submission button
+    setIsLoading(true);
 
-    // Clear form fields after successful submission
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
+    // Simulate form submission and backend processing (replace setTimeout with actual submission logic)
+    setTimeout(() => {
+      // Clear form fields after successful submission
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
+
+      // Reset placeholder states
+      setIsTyping(false);
+      setIsTyping1(false);
+      setIsTyping4(false);
+
+      // Hide loader and enable form submission button after 2 seconds
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 4000);
+
+      // Log form data to console
+      console.log(formData);
+
+      // You can perform additional actions here, like sending the data to a backend server
     });
-    // Reset placeholder states
-    setIsTyping(false);
-    setIsTyping1(false);
-    setIsTyping4(false);
-    console.log(formData); // Log form data to console
-    // You can perform additional actions here, like sending the data to a backend server
   };
 
   const [isTyping, setIsTyping] = useState(false);
@@ -142,7 +156,10 @@ const ContactUs = () => {
   return (
     <>
       <div className="contactform">
-        <div className="spacingContact">
+        <div className={`spacingContact ${isLoading ? "loading" : ""}`}>
+          {isLoading && (
+            <img src={Loader} className="loader" alt="Loading..." />
+          )}
           <div className="row">
             <div
               className="contactLeft col-md-6"
@@ -250,7 +267,9 @@ const ContactUs = () => {
                             ? "error-asterisk"
                             : ""
                         }`}
-                        style={{ left: `${messagePlaceholderWidth + 16}px` }}
+                        style={{
+                          left: `${messagePlaceholderWidth + 16}px`,
+                        }}
                       >
                         *
                       </span>

@@ -2,7 +2,7 @@ import { useLayoutEffect } from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import "./Servicesmain.css";
-import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
+// import TrustedCompanies from "../TrustedCompanies/TrustedCompanies";
 import ContactUs from "../Contactus/ContactUs";
 import LowerHeader from "../LowerHeader/LowerHeader";
 import UnlockingAgri from "../Unlocking Agriculture/UnlockingAgri";
@@ -46,7 +46,7 @@ const Servicesmain = () => {
       <LowerHeader2 />
       <Transforming />
       <UnlockingAgri />
-      <TrustedCompanies />
+      {/* <TrustedCompanies /> */}
       <Empowering />
       <ContactUs />
       <LowerHeader />
