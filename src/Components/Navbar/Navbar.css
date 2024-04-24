@@ -74,7 +74,7 @@ nav {
 }
 
 .nav-item.dropdown .dropdown-menu {
-    display: block;
+    /* display: block; */
     opacity: 0;
     max-height: 0;
     overflow: hidden;
@@ -365,4 +365,12 @@ nav {
     .dropdown-menu {
         --bs-dropdown-border-radius: 1.5vh !important;
     }
+
+    /* .nav-item.dropdown .dropdown-menu {
+        display: none;
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    } */
 }

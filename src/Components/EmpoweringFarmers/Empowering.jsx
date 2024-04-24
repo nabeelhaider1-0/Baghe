@@ -16,7 +16,7 @@ const Empowering = () => {
           </h3>
           <p data-aos="slide-up" data-aos-duration="1500" data-aos-once="true">
             Providing support and opportunities to farmers through an
-            application . Join us in revolutionizing agriculture.
+            application.Join us in revolutionizing agriculture.
           </p>
         </div>
 

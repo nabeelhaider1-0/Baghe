@@ -19,6 +19,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <>
       {/* <nav className="navbar navbar-expand-lg "> */}

@@ -88,3 +88,17 @@
     filter: blur(0.3vw);
     /* Adjust the value for more or less blur */
 }
+
+@media (max-width: 600px) {
+    .text-overlay2 p {
+        font-size: 3vw;
+        line-height: 3.7vw;
+        width: 78vw;
+    }
+
+    .text-overlay2 h1 {
+        font-size: 3vw;
+        line-height: 4vw;
+        width: auto;
+    }
+}
