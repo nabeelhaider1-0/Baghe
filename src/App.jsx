@@ -14,6 +14,7 @@ import FAQ from "./Components/FAQ/FAQ";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Landing from "./Components/Landing/Landing";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -23,6 +24,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route path="/Landing" element={<Landing />} />
         </Routes>
         <Routes>
           <Route path="/aboutUs" element={<AboutUs />} />

@@ -51,6 +51,25 @@
     text-shadow: 2px 2px 8px #000000;
 }
 
+.homebgtext button {
+    padding: 0.8vw 2vw;
+    border: none;
+    background-color: #418E05;
+    color: #ffffff;
+    font-size: 1.3vw;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 1.9vw;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 2vw;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 1vw;
+    box-shadow: 0px 0px 0.5vw rgba(0, 0, 0, 0.5);
+}
+
 .introductionbg {
     padding: 5vw;
     padding-top: 7vw;

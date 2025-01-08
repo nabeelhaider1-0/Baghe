@@ -17,6 +17,7 @@ import ContactUs from "../Contactus/ContactUs";
 import LowerHeader from "../LowerHeader/LowerHeader";
 import Footer from "../Footer/Footer";
 import { useLayoutEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   useLayoutEffect(() => {
@@ -49,6 +50,14 @@ const Home = () => {
               Introducing Bagh-e, an innovative app-based solution designed to
               empower small-scale farmers by providing digital credit.
             </p>
+            <Link
+              to="/Landing"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-once="true"
+            >
+              <button>Join as a Farmer</button>
+            </Link>
           </div>
         </div>
       </div>

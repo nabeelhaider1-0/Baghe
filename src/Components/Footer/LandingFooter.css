@@ -1,0 +1,55 @@
+.landingFooterbg {
+    background-color: #011305;
+    padding: 20px;
+}
+
+.footer-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-info {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.contact-info h3 {
+    color: #418E05;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: white;
+}
+
+
+.social-links {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+
+}
+
+
+.social-links i {
+    color: #ffffff;
+    padding: 0.4vw;
+    background-color: #6ea941;
+    border-radius: 0.4vw;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.4vw;
+}
+
+.social-links i:hover {
+    background-color: #315912;
+}
+
+.social-links {
+    margin-top: 10px;
+}
